@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Header() {
   return (
-    <nav className="z-40 w-full fixed top-0 py-6 ">
+    <nav className="z-40 w-full fixed top-0 py-6 text-green">
       <div className="flex items-center justify-between mx-auto w-5/6">
         <h4 className="font-playfair text-3xl font-bold">Readme Generator</h4>
         <div className="flex justify-between gap-8">
