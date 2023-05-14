@@ -10,7 +10,7 @@ with open("src/style.css") as f:
 
 with col1:
     App = CreatePage()
-    App.create_page()
+    App.create_page() 
 
 with col2:
     st.text('Live Preview')

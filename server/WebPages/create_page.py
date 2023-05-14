@@ -23,13 +23,13 @@ def add_bg_from_url():
         f"""
         <style>
         .stApp {{
-            background-image: url("https://w.forfun.com/fetch/4e/4e3afb6cc0061d853637aff488daeea9.jpeg");
+            background-image: url("https://i.gifer.com/tRm.gif");
             background-attachment: fixed;
             background-size: cover;
         }}
         .stApp:before {{
             content: "";
-            position: absolute;
+            position: absolute;  
             width: 100%;
             height: 100%;
             top: 0;
@@ -147,7 +147,7 @@ class CreatePage:
         st.text("Github User Name")
         self.github_username = st.text_input('')
         if len(self.github_username) == 0:
-            st.warning("Please enter the github name to use addons")
+            st.warning("Please enter your github username to use addons")
         st.text("Github Stats Theme")
         self.github_theme = st.selectbox('', github_stats_theme)
         st.text("Add-ons")
