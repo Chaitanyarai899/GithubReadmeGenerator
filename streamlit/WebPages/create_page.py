@@ -5,7 +5,7 @@ import streamlit as st
 
 st.markdown(
     """
-    <h1 style='text-align: center; color: #00FF00; text-shadow: 2px 2px #000000;'>Github ReadMe Generator</h1>
+    <h1 style='text-align: center; color: #00FF00; text-shadow: 2px 2px #000000;'>Github ReadMe file Generator</h1>
     """,
     unsafe_allow_html=True
 )
